@@ -269,11 +269,24 @@ a, button{
     
 }
 @media only screen and (max-width: 1199px) { 
-    
+    ._header_xono_v2_cont_title {
+        max-width: 100%;
+    }
+    ._header_xono_v2_cont_feature_ul {
+        max-width: 100%;
+    }
 }
 /* Ipad pro */
 @media only screen and (max-width: 991px) {
-    
+    ._header_xono_v2_cont_wrap {
+        padding-top: 70px;
+    }
+    ._header_xono_v2_cont_title {
+        font-size: 44px;
+    }
+    ._header_xono_v2_cont_feature_li {
+        margin: 0 0 20px 0;
+    }
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
@@ -288,13 +301,56 @@ a, button{
 }
 @media only screen and (max-width: 375px) {}
 /*header xono_v2 section end*/
-/*feature xono_v2 section*/
+
+/*statistics xono_v2 section*/
+._statistics_xono_v2_wrapper  {
+    padding: 120px 0;
+}
+._statistics_xono_v2_heading_txt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    color: #232020;
+    margin: 0 auto 20px;
+}
+._statistics_xono_v2_heading_txt span {
+    display: block;
+}
+
+._statistics_xono_v2_card {
+    background: #EBF7F8;
+    border-radius: 24px;
+    padding: 30px 24px 26px;
+    margin: 14px 0;
+}
+._statistics_xono_v2_card_heading {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.2;
+    text-align: center;
+    color: #BA2871;
+    margin-bottom: 10px;
+}
+._statistics_xono_v2_card_para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: #232020;
+    min-height: 112px;
+}
 
 /* responsive css */
 /* Desktop/Laptop */
 @media only screen and (min-width: 1600px) {}
 @media (max-width: 1399px) {
-    
+    ._statistics_xono_v2_card {
+        padding: 30px 10px 26px;
+    }
 }
 @media only screen and (max-width: 1199px) { 
     
@@ -315,7 +371,8 @@ a, button{
     
 }
 @media only screen and (max-width: 375px) {}
-/*feature xono_v2 section end*/
+/*statistics xono_v2 section end*/
+
 /*footer xono_v2 section*/
 
 /* responsive css */
