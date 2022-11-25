@@ -550,9 +550,7 @@ a, button{
         padding-top: 60px;
     }
 }
-@media only screen and (max-width: 420px) {
-    
-}
+@media only screen and (max-width: 420px) {}
 @media only screen and (max-width: 375px) {}
 /*service xono_v2 section end*/
 
@@ -641,9 +639,7 @@ a, button{
     }
 }
 /* Ipad/Mobile L */
-@media only screen and (max-width: 767px) {
-    
-}
+@media only screen and (max-width: 767px) {}
 /* Mobile */
 @media only screen and (max-width: 575px) {
     ._organisation_xono_v2_wrapper {
@@ -897,9 +893,7 @@ a, button{
     }
 }
 /* Ipad/Mobile L */
-@media only screen and (max-width: 767px) {
-    
-}
+@media only screen and (max-width: 767px) {}
 /* Mobile */
 @media only screen and (max-width: 575px) {
     ._insights_xono_v2_wrapper {
@@ -911,60 +905,6 @@ a, button{
         font-size: 30px;
         margin-bottom: 12px;
     }
-    ._insights_xono_v2_left {
-        padding: 30px 22px 0;
-    }
-}
-@media only screen and (max-width: 375px) {}
-/*insights xono_v2 section end*/
-
-/* responsive css */
-/* Desktop/Laptop */
-@media only screen and (min-width: 1600px) {}
-@media (max-width: 1399px) {
-    ._insights_xono_v2_left_para {
-        font-size: 17px;
-        max-width: 100%;
-    }
-}
-@media only screen and (max-width: 1199px) { 
-    ._insights_xono_v2_left {
-        padding: 0 0 0 40px;
-    }
-    ._insights_xono_v2_r8 {
-        margin: -150px 0 0 0;
-    }
-    ._insights_xono_v2_wrapper {
-        padding: 190px 0 100px;
-    }
-}
-/* Ipad pro */
-@media only screen and (max-width: 991px) {
-    ._insights_xono_v2_wrapper {
-        padding: 90px 0;
-    }
-    ._insights_xono_v2_r8 {
-        margin: 0;
-    }
-    ._insights_xono_v2_left {
-        padding: 30px 40px 0;
-    }
-    ._insights_xono_v2_left_txt {
-        font-size: 35px;
-        margin-bottom: 16px;
-    }
-}
-/* Ipad/Mobile L */
-@media only screen and (max-width: 767px) {
-    
-}
-/* Mobile */
-@media only screen and (max-width: 575px) {
-    ._insights_xono_v2_wrapper {
-        padding: 60px 0;
-    }
-}
-@media only screen and (max-width: 420px) {
     ._insights_xono_v2_left {
         padding: 30px 22px 0;
     }
@@ -1142,6 +1082,16 @@ a, button{
         padding: 0 120px 0 18px;
     }
 }
+@media only screen and (max-width: 375px) {
+    ._cta_xono_v2_bg_wrap::before {
+        width: 210px;
+        height: 320px;
+    }
+    ._cta_xono_v2_bg_wrap::after {
+        width: 210px;
+        height: 280px;
+    }
+}
 /*cta xono_v2 section end*/
 
 /*footer xono_v2 section*/
@@ -1287,9 +1237,7 @@ a, button{
     }
 }
 /* Mobile */
-@media only screen and (max-width: 575px) {
-    
-}
+@media only screen and (max-width: 575px) {}
 @media only screen and (max-width: 420px) {
     ._footer_xono_v2_txt1 {
         font-size: 16px;
