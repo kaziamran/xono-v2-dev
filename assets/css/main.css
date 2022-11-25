@@ -339,7 +339,7 @@ a, button{
 
 /*statistics xono_v2 section*/
 ._statistics_xono_v2_wrapper  {
-    padding: 120px 0;
+    padding-top: 120px;
 }
 ._statistics_xono_v2_heading_txt {
     font-family: 'Roboto';
@@ -396,6 +396,9 @@ a, button{
     }
 }
 @media only screen and (max-width: 1199px) { 
+    ._statistics_xono_v2_wrapper {
+        padding-top: 80px;
+    }
     ._statistics_xono_v2_card_heading {
         font-size: 36px;
     }
@@ -425,6 +428,9 @@ a, button{
     ._statistics_xono_v2_heading_txt {
         font-size: 28px;
     }
+    ._statistics_xono_v2_wrapper {
+        padding-top: 60px;
+    }
 }
 @media only screen and (max-width: 420px) {
     ._statistics_xono_v2_card {
@@ -437,20 +443,93 @@ a, button{
 @media only screen and (max-width: 375px) {}
 /*statistics xono_v2 section end*/
 
-/*footer xono_v2 section*/
+/*service xono_v2 section*/
+._service_xono_v2_wrapper  {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+._service_xono_v2_heading_txt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    color: #232020;
+    margin-bottom: 66px;
+}
 
+._service_xono_v2_left_ic {
+    margin-bottom: 15px;
+}
+._service_xono_v2_left_ic img {
+    width: 32px;
+    animation: animationic .9s linear alternate infinite;
+}
+@keyframes animationic {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(4px);
+    }
+}
+._service_xono_v2_left_txt1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #232020;
+    max-width: 60%;
+    margin-bottom: 24px;
+}
+._service_xono_v2_left_txt2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(35, 32, 32, 0.8);
+    max-width: 85%;
+}
+
+._service_xono_v2_part1_wrap, ._service_xono_v2_part2_wrap {
+    margin-top: 100px;
+}
 /* responsive css */
 /* Desktop/Laptop */
 @media only screen and (min-width: 1600px) {}
 @media (max-width: 1399px) {
-    
+    ._service_xono_v2_left_txt1 {
+        max-width: 70%;
+    }
 }
 @media only screen and (max-width: 1199px) { 
-    
+    ._service_xono_v2_left_txt1 {
+        max-width: 88%;
+        font-size: 28px;
+    }
+    ._service_xono_v2_left_txt2 {
+        max-width: 100%;
+    }
 }
 /* Ipad pro */
 @media only screen and (max-width: 991px) {
-   
+    ._service_xono_v2_wrapper {
+        padding-top: 80px;
+    }
+    ._service_xono_v2_heading_txt {
+        font-size: 32px;
+        margin-bottom: 48px;
+    }
+    ._service_xono_v2_left {
+        margin-bottom: 40px;
+    }
+    ._service_xono_v2_left_txt1 {
+        max-width: 100%;
+        font-size: 24px;
+    }
+    ._service_xono_v2_part1_wrap, ._service_xono_v2_part2_wrap {
+        margin-top: 60px;
+    }
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
@@ -458,13 +537,25 @@ a, button{
 }
 /* Mobile */
 @media only screen and (max-width: 575px) {
-    
+    ._service_xono_v2_heading_txt {
+        font-size: 28px;
+    }
+    ._service_xono_v2_left_txt1 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    ._service_xono_v2_left {
+        margin-bottom: 24px;
+    }
+    ._service_xono_v2_wrapper {
+        padding-top: 60px;
+    }
 }
 @media only screen and (max-width: 420px) {
     
 }
 @media only screen and (max-width: 375px) {}
-/*footer xono_v2 section end*/
+/*service xono_v2 section end*/
 /*------------------
     Variable 
 ------------------*/
