@@ -670,7 +670,6 @@ a, button{
     background: #282B2F;
     padding: 66px 0 92px;
     margin-top: 120px;
-    margin-bottom: 120px;
 }
 ._pricing_xono_v2_heading_txt {
     font-family: 'Roboto';
@@ -745,9 +744,10 @@ a, button{
     font-size: 16px;
     line-height: 1.2;
     color: #FFFFFF;
-    padding: 0 0 0 20px;
 }
-
+._pricing_xono_v2_card_feature_li_span svg {
+    margin: 0 11px 0 0;
+}
 
 ._pricing_xono_v2_card_btn {
     display: flex;
@@ -772,11 +772,308 @@ a, button{
 ._pricing_xono_v2_card_btn_tag:hover {
     background: #BA2871
 }
+
 /* responsive css */
 /* Desktop/Laptop */
 @media only screen and (min-width: 1600px) {}
 @media (max-width: 1399px) {
+    ._pricing_xono_v2_card_feature_li_span {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1199px) { 
+    ._pricing_xono_v2_card {
+        padding: 20px 20px 28px;
+    }
+    ._pricing_xono_v2_card_feature_li_span svg {
+        margin: 0 7px 0 0;
+    }
+    ._pricing_xono_v2_heading_txt {
+        max-width: 70%;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._pricing_xono_v2_wrapper {
+        margin-top: 90px;
+    }
+    ._pricing_xono_v2_heading_txt {
+        max-width: 70%;
+        font-size: 32px;
+        margin: 0 auto 30px;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    ._pricing_xono_v2_wrapper {
+        padding: 44px 0;
+    }
+    ._pricing_xono_v2_heading_txt {
+        max-width: 100%;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._pricing_xono_v2_card_btn_tag {
+        width: 134px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._pricing_xono_v2_wrapper {
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 375px) {}
+/*pricing xono_v2 section end*/
+
+/*insights xono_v2 section*/
+._insights_xono_v2_wrapper {
+    padding: 260px 0 120px;
+}
+._insights_xono_v2_bg_wrap {
+    background: #FFEDF6;
+    border-radius: 40px;
+}
+
+._insights_xono_v2_left {
+    padding: 0 0 0 55px;
+}
+._insights_xono_v2_left_txt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #232020;
+    margin-bottom: 24px;
+}
+._insights_xono_v2_left_para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    color: rgba(35, 32, 32, 0.8);
+    max-width: 90%;
+}
+
+._insights_xono_v2_r8 {
+    margin: -210px 0 0 0;
+}
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    ._insights_xono_v2_left_para {
+        font-size: 17px;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1199px) { 
+    ._insights_xono_v2_left {
+        padding: 0 0 0 40px;
+    }
+    ._insights_xono_v2_r8 {
+        margin: -150px 0 0 0;
+    }
+    ._insights_xono_v2_wrapper {
+        padding: 190px 0 100px;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._insights_xono_v2_wrapper {
+        padding: 90px 0;
+    }
+    ._insights_xono_v2_r8 {
+        margin: 0;
+    }
+    ._insights_xono_v2_left {
+        padding: 30px 40px 0;
+    }
+    ._insights_xono_v2_left_txt {
+        font-size: 35px;
+        margin-bottom: 16px;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
     
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._insights_xono_v2_wrapper {
+        padding: 60px 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._insights_xono_v2_left_txt {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+    ._insights_xono_v2_left {
+        padding: 30px 22px 0;
+    }
+}
+@media only screen and (max-width: 375px) {}
+/*insights xono_v2 section end*/
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    ._insights_xono_v2_left_para {
+        font-size: 17px;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1199px) { 
+    ._insights_xono_v2_left {
+        padding: 0 0 0 40px;
+    }
+    ._insights_xono_v2_r8 {
+        margin: -150px 0 0 0;
+    }
+    ._insights_xono_v2_wrapper {
+        padding: 190px 0 100px;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._insights_xono_v2_wrapper {
+        padding: 90px 0;
+    }
+    ._insights_xono_v2_r8 {
+        margin: 0;
+    }
+    ._insights_xono_v2_left {
+        padding: 30px 40px 0;
+    }
+    ._insights_xono_v2_left_txt {
+        font-size: 35px;
+        margin-bottom: 16px;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._insights_xono_v2_wrapper {
+        padding: 60px 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    
+}
+@media only screen and (max-width: 375px) {}
+/*insights xono_v2 section end*/
+
+/*cta xono_v2 section*/
+._cta_xono_v2_wrapper {
+    padding: 60px 0;
+}
+._cta_xono_v2_bg_wrap {
+    background: #EBF7F8;
+    border-radius: 32px;
+    padding: 38px 54px;
+    position: relative;
+    z-index: 1;
+}
+._cta_xono_v2_bg_wrap::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/cta-left-before-vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    height: 360px;
+    z-index: -1;
+    border-radius: 32px;
+}
+._cta_xono_v2_bg_wrap::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/cta-left-after-vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: 380px;
+    z-index: -1;
+    border-radius: 32px;
+}
+
+._cta_xono_v2_left_txt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #232020;
+    margin-bottom: 16px;
+}
+._cta_xono_v2_left_para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    color: rgba(35, 32, 32, 0.8);
+    max-width: 82%;
+    margin-bottom: 34px;
+}
+
+._cta_xono_v2_left_form {
+    width: fit-content;
+    position: relative;
+}
+._cta_xono_v2_left_form_inpt {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 398px;
+    height: 60px;
+    color: #000;
+    padding: 0 140px 0 25px;
+}
+._cta_xono_v2_left_form_inpt::placeholder {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgba(35, 32, 32, 0.8);
+}
+._cta_xono_v2_left_form_btn {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease-in-out;
+    width: 117px;
+    height: 38px;
+    background: #2D9198;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    border: 0;
+}
+._cta_xono_v2_left_form_btn:hover {
+    background: #BA2871
+}
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+   
 }
 @media only screen and (max-width: 1199px) { 
     
@@ -795,10 +1092,39 @@ a, button{
 }
 @media only screen and (max-width: 420px) {
     
+}
+@media only screen and (max-width: 375px) {}
+/*cta xono_v2 section end*/
+
+/*footer xono_v2 section*/
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+   
+}
+@media only screen and (max-width: 1199px) { 
+    
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    
+}
+@media only screen and (max-width: 420px) {
     
 }
 @media only screen and (max-width: 375px) {}
-/*pricing xono_v2 section end*/
+/*footer xono_v2 section end*/
+
 /*------------------
     Variable 
 ------------------*/
