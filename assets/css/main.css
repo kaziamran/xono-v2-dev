@@ -310,8 +310,8 @@ a, button{
         margin: 0 20px 0 0;
     }
     ._header_xono_v2_cont_conatct_btn {
-        width: 140px;
-        height: 52px;
+        width: 134px;
+        height: 50px;
     }
     ._header_xono_v2_cont_title {
         font-size: 26px;
@@ -446,7 +446,6 @@ a, button{
 /*service xono_v2 section*/
 ._service_xono_v2_wrapper  {
     padding-top: 120px;
-    padding-bottom: 120px;
 }
 ._service_xono_v2_heading_txt {
     font-family: 'Roboto';
@@ -556,6 +555,184 @@ a, button{
 }
 @media only screen and (max-width: 375px) {}
 /*service xono_v2 section end*/
+
+/*organisation xono_v2 section*/
+._organisation_xono_v2_wrapper  {
+    padding-top: 120px;
+}
+._organisation_xono_v2_heading_txt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    color: #232020;
+    margin: 0 auto 33px;
+    max-width: 70%;
+}
+
+._organisation_xono_v2_icons_wrap {
+    margin-bottom: 44px;
+}
+._organisation_xono_v2_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+._organisation_xono_v2_icon {
+    margin-right: 60px;
+}
+._organisation_xono_v2_icon:last-child {
+    margin-right: 0
+}
+._organisation_xono_v2_icon_tag {
+    width: 120px;
+    max-width: 105px;
+    object-fit: cover;
+}
+
+._organisation_xono_v2_contact_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._organisation_xono_v2_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease-in-out;
+    width: 140px;
+    height: 48px;
+    background: #2D9198;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FFFFFF !important;
+}
+._organisation_xono_v2_contact:hover {
+    background: #BA2871
+}
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    
+}
+@media only screen and (max-width: 1199px) { 
+    ._organisation_xono_v2_heading_txt {
+        font-size: 42px;
+        max-width: 84%;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._organisation_xono_v2_wrapper {
+        padding-top: 90px;
+    }
+    ._organisation_xono_v2_heading_txt {
+        font-size: 32px;
+        max-width: 100%;
+    }
+    ._organisation_xono_v2_icon {
+        margin: 0 20px 10px;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._organisation_xono_v2_wrapper {
+        padding-top: 60px;
+    }
+    ._organisation_xono_v2_heading_txt {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._organisation_xono_v2_heading_txt {
+        font-size: 25px;
+    }
+    ._organisation_xono_v2_contact {
+        width: 134px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 375px) {}
+/*organisation xono_v2 section end*/
+
+/*pricing xono_v2 section */
+._pricing_xono_v2_wrapper  {
+    background: #282B2F;
+    padding: 66px 0 92px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+._pricing_xono_v2_heading_txt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 88px;
+    max-width: 50%;
+}
+
+
+._pricing_xono_v2_card {
+    background-color: #33383B;
+    border-radius: 24px;
+    margin: 15px 0;
+}
+._pricing_xono_v2_card_type {
+    background: #282B2F;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._pricing_xono_v2_card_type_txt {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    
+}
+@media only screen and (max-width: 1199px) { 
+    
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    
+}
+@media only screen and (max-width: 420px) {
+    
+    
+}
+@media only screen and (max-width: 375px) {}
+/*pricing xono_v2 section end*/
 /*------------------
     Variable 
 ------------------*/
